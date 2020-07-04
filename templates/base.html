@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is what you want for strings. You type what you want in here and it returns a string -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+    <!-- This is for stuff like if else/ for loops -->
+    {% block body %}{% endblock %}
+</body>
+
+</html>
