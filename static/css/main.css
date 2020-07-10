@@ -1,4 +1,59 @@
-body {
+body,
+html {
   margin: 0;
   font-family: sans-serif;
+  background-color: #345084;
+}
+
+.content {
+  margin: 0 auto;
+  width: 400px;
+}
+
+table,
+td,
+th {
+  border: 1px solid #aaa;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 30px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+#content {
+  width: 70%;
+}
+
+button {
+  width: 50%;
+  border-radius: 8px;
+}
+
+#update {
+  border: solid green;
+  background-color: #00800057;
+}
+
+#delete {
+  border: solid red;
+  background-color: #ff000054;
 }
