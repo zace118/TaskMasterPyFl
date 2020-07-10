@@ -1,1 +1,1 @@
-web: gunicorn taskmasterpyfl:app
+web: gunicorn app:app
