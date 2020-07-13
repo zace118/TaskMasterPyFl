@@ -2,7 +2,6 @@ body,
 html {
   margin: 0;
   font-family: sans-serif;
-  background-color: #345084;
 }
 
 .content {
@@ -37,6 +36,8 @@ a {
 
 .form {
   margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #content {
@@ -44,7 +45,7 @@ a {
 }
 
 button {
-  width: 50%;
+  width: 100%;
   border-radius: 8px;
 }
 
